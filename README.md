@@ -1,6 +1,6 @@
 # OCPP Charging Station simulator
 
-This is a charging station simulator that supports OCPP JSON-2.0.1/1.6/1.5
+This is a charging station simulator that supports OCPP JSON-2.0.1/1.6/1.5. This project extends the [OCPP-Charge-Point-Simulator](https://github.com/Lamerat/OCPP-Charge-Point-Simulator/tree/main/) project by Lamerat by adding OCPP JSON-2.0.1 support and implement Typescript. Shout out to the base project. 🚀
 
 ## Implemented functions
 
