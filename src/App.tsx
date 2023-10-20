@@ -8,7 +8,7 @@ import SettingsContext from "./Context/SettingsContext";
 
 function App() {
   const [settingsState, setSettingsState] = useState(
-    JSON.parse(localStorage.getItem("OCPPSettings") ?? "") || defaultSettings
+    JSON.parse(localStorage.getItem("OCPPSettings") as string) || defaultSettings
   );
 
   return (
