@@ -2,9 +2,9 @@ import HelpIcon from "@mui/icons-material/Help";
 import SaveIcon from "@mui/icons-material/Save";
 import { Box, Button, Divider, Grid, Paper, Stack, TextField, Typography } from "@mui/material";
 import React, { useContext, useState } from "react";
-import SettingsContext from "../../Context/SettingsContext";
 import { saveSettings } from "../../common/help-functions";
 import { helpBootNotification } from "../../common/help-texts";
+import SettingsContext from "../../context/setting-context";
 
 type HelpText = {
   [key: string]: string;

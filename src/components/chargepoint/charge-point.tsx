@@ -1,10 +1,11 @@
 import { Box, Button, Chip, Divider, Paper, Stack, Typography } from "@mui/material";
 import React, { useContext } from "react";
-import { Status, connectedStatuses, pointStatus } from "../../Config/charge-point-settings";
-import SettingsContext from "../../Context/SettingsContext";
+
 import { createCommand } from "../../OCPP/OCPP-Commands";
 import { socketInfo } from "../../common/constants";
 import { Command } from "../../common/contracts";
+import { Status, connectedStatuses, pointStatus } from "../../config/charge-point-settings";
+import SettingsContext from "../../context/setting-context";
 
 type ChargePointProps = {
   ws: WebSocket | null;

@@ -1,10 +1,10 @@
 import { Box, Container, Paper, Tab, Tabs } from "@mui/material";
 import React, { useState } from "react";
-import BootNotification from "./BootNotification";
-import MainSettings from "./MainSettings";
-import Simulation from "./Simulation";
-import Station from "./Station";
-import TabPanel from "./TabPanel";
+import BootNotification from "./boot-notification";
+import MainSettings from "./main-setting";
+import Simulation from "./simulation";
+import Station from "./station";
+import TabPanel from "./tab-panel";
 
 const a11yProps = (index: number) => ({
   id: `simple-tab-${index}`,

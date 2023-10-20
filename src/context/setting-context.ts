@@ -1,5 +1,5 @@
 import React from "react";
-import defaultSettings from "../Config/default-settings";
+import defaultSettings from "../config/default-settings";
 
 const SettingsContext = React.createContext({
   settingsState: defaultSettings,

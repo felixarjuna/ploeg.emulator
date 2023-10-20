@@ -12,13 +12,14 @@ import {
 } from "@mui/material";
 import moment from "moment";
 import React from "react";
-import { connectedStatuses, pointStatus } from "../../Config/charge-point-settings";
-import SettingsContext from "../../Context/SettingsContext";
+
 import { createCommand } from "../../OCPP/OCPP-Commands";
 import { commands, connectors, logTypes, socketInfo } from "../../common/constants";
 import { Command, ConnectorType } from "../../common/contracts";
-import ChargePoint from "../ChargePoint/ChargePoint";
-import Connector from "../Connector/Connector";
+import { connectedStatuses, pointStatus } from "../../config/charge-point-settings";
+import SettingsContext from "../../context/setting-context";
+import ChargePoint from "../chargepoint/charge-point";
+import Connector from "../connector/connector";
 
 let heartbeatInterval: string | number | NodeJS.Timeout | undefined;
 let meterValueInterval: { [key: number]: any } = {

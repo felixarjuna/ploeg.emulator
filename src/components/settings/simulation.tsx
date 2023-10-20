@@ -15,9 +15,9 @@ import {
   Typography,
 } from "@mui/material";
 import React, { useContext, useState } from "react";
-import SettingsContext from "../../Context/SettingsContext";
 import { saveSettings } from "../../common/help-functions";
 import { SimulateInfo, helpFirmwareStatus, simulateInfo } from "../../common/help-texts";
+import SettingsContext from "../../context/setting-context";
 
 const firmwareStatuses = Object.keys(helpFirmwareStatus);
 

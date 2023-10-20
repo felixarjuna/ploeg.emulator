@@ -18,8 +18,8 @@ import {
 import { styled } from "@mui/material/styles";
 import PropTypes from "prop-types";
 import React, { useState } from "react";
-import { mainStatus } from "../../Config/charge-point-settings";
 import { createCommand } from "../../OCPP/OCPP-Commands";
+import { mainStatus } from "../../config/charge-point-settings";
 
 import {
   ConnectorStatusEnumType,

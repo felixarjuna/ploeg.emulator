@@ -1,10 +1,11 @@
 import React, { useState } from "react";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Main from "./Components/Main/Main";
-import MenuBar from "./Components/MenuBar/MenuBar";
-import Settings from "./Components/Settings/Settings";
-import defaultSettings from "./Config/default-settings";
-import SettingsContext from "./Context/SettingsContext";
+import Main from "./components/main/main";
+import MenuBar from "./components/menubar/menu-bar";
+import Settings from "./components/settings/settings";
+
+import defaultSettings from "./config/default-settings";
+import SettingsContext from "./context/setting-context";
 
 function App() {
   const [settingsState, setSettingsState] = useState(

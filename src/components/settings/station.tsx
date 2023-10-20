@@ -14,8 +14,8 @@ import {
   TextField,
 } from "@mui/material";
 import React, { useContext } from "react";
-import SettingsContext from "../../Context/SettingsContext";
 import { saveSettings } from "../../common/help-functions";
+import SettingsContext from "../../context/setting-context";
 
 const SingleField = ({ data }: { data: { key: string; readonly: boolean; value: string } }) => {
   const { settingsState, setSettingsState } = useContext(SettingsContext);
